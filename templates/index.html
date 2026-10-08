@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI RAG Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>🤖 RAG Assistant</h2>
+
+            <button class="new-chat">+ New Chat</button>
+
+            <div class="sidebar-section">
+                <p>Knowledge Base</p>
+                <div class="info-box">
+                    <span>📚</span>
+                    <span>ChromaDB</span>
+                </div>
+
+                <div class="info-box">
+                    <span>🧠</span>
+                    <span>Groq LLM</span>
+                </div>
+
+                <div class="info-box">
+                    <span>🔎</span>
+                    <span>Vector Search</span>
+                </div>
+            </div>
+
+            <div class="sidebar-bottom">
+                <p>RAG AI Project</p>
+                <small>Powered by Groq + ChromaDB</small>
+            </div>
+        </aside>
+
+
+        <!-- Main Chat -->
+        <main class="main">
+
+            <header class="header">
+                <div>
+                    <h1>AI Knowledge Assistant</h1>
+                    <p>Ask questions from your knowledge base</p>
+                </div>
+
+                <div class="status">
+                    <span></span> Online
+                </div>
+            </header>
+
+
+            <!-- Chat Area -->
+            <section class="chat-area">
+
+                <div class="welcome">
+                    <div class="bot-icon">🤖</div>
+
+                    <h2>How can I help you?</h2>
+
+                    <p>
+                        Ask me anything about the information stored
+                        in your knowledge base.
+                    </p>
+                </div>
+
+                <!-- Example message -->
+                <div class="message user-message">
+                    <div class="avatar">👤</div>
+                    <div class="message-content">
+                        <p>What is Machine Learning?</p>
+                    </div>
+                </div>
+
+                <div class="message bot-message">
+                    <div class="avatar">🤖</div>
+                    <div class="message-content">
+                        <p>
+                            Machine Learning is a branch of Artificial
+                            Intelligence that allows computers to learn
+                            from data and make predictions.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- Input -->
+            <div class="input-area">
+
+                <div class="input-box">
+
+                    <textarea
+                        id="question"
+                        placeholder="Ask your question..."
+                        rows="1"></textarea>
+
+                    <button id="sendBtn">
+                        ➤
+                    </button>
+
+                </div>
+
+                <p class="disclaimer">
+                    AI can make mistakes. Check important information.
+                </p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+</html>

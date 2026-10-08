@@ -1,0 +1,9 @@
+# Natural Language Processing
+
+Natural Language Processing (NLP) is a field of Artificial Intelligence that helps computers understand and process human language.
+
+NLP is used in chatbots, translation systems, sentiment analysis, text summarization, and question-answering applications.
+
+A language model learns patterns from large amounts of text and can generate human-like responses. Modern AI applications often combine language models with external information sources to improve the accuracy and relevance of their answers.
+
+NLP and RAG can work together in document-based question answering systems, where users ask questions in natural language and the system retrieves relevant information from documents before generating a response.

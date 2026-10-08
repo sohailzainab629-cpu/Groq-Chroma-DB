@@ -1,0 +1,7 @@
+# Vector Databases
+
+A vector database stores information as numerical representations called vectors. These vectors help a system find information that is semantically similar to a user's query.
+
+In a RAG system, documents are divided into smaller chunks and stored in a vector database. When a user asks a question, the system searches for the most relevant chunks and sends them to the language model.
+
+Vector databases are useful for document search, chatbots, research assistants, and knowledge-based applications. ChromaDB is one example of a vector database that can be used to store and retrieve document information.

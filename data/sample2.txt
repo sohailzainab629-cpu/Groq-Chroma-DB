@@ -1,0 +1,9 @@
+# Artificial Intelligence
+
+Artificial Intelligence (AI) is a technology that enables computers to perform tasks that normally require human intelligence. These tasks include understanding language, recognizing images, making predictions, and answering questions.
+
+Machine Learning is a branch of AI that allows computers to learn patterns from data. Deep Learning is a type of Machine Learning that uses neural networks with multiple layers.
+
+Retrieval-Augmented Generation (RAG) combines document retrieval with a language model. It first retrieves relevant information from stored documents and then uses that information to generate an answer.
+
+RAG systems are useful for question answering because they can provide answers based on specific documents instead of relying only on the model's general knowledge.
